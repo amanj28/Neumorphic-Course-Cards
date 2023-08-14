@@ -1,0 +1,66 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  margin: 0;
+}
+.course-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.course-card {
+  width: 300px;
+  margin: 20px;
+  background: #f0f0f0;
+  border-radius: 20px;
+  box-shadow: 10px 10px 20px #c5c5c5, -10px -10px 20px #ffffff;
+  overflow: hidden;
+}
+.course-header {
+  position: relative;
+  overflow: hidden;
+}
+.course-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 5px 10px;
+  background: #e0e0e0;
+  border-radius: 10px;
+  color: #3498db;
+  font-weight: bold;
+}
+.course-header img {
+  width: 100%;
+  display: block;
+}
+.course-content {
+  padding: 20px;
+}
+h3 {
+  margin: 0 0 10px;
+}
+p {
+  margin: 0 0 15px;
+}
+.course-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #f0f0f0;
+  border: 1px solid #D1D9E9;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #3498db;
+  font-weight: bold;
+  box-shadow: 5px 5px 10px #c5c5c5, -5px -5px 10px #ffffff;
+  transition: transform 0.3s ease-in-out;
+}
+.course-button:hover {
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1), -4px -4px 8px rgba(255, 255, 255, 0.5);
+  transition: transform 0.2s, box-shadow 0.2s;
+  border: 1px solid #bbb;
+}
+
